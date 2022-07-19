@@ -1,0 +1,19 @@
+body{
+    background-color: #595647;
+}
+
+#aboutMe h1, h2{
+    color: #8AAFD3;
+}
+
+#aboutMe>p, ul, ol{
+    color: white;
+}
+
+.jolly{
+    color: rgb(232, 232, 108);
+}
+
+.imdb{
+    color: rgb(213, 46, 46);
+}
