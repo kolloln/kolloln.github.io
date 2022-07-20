@@ -1,5 +1,5 @@
 body{
-    background-color: #595647;
+    background-color: #5c2926;
 }
 
 #aboutMe h1, h2{
@@ -9,6 +9,7 @@ body{
 #aboutMe>p, ul, ol{
     color: white;
 }
+
 
 .jolly{
     color: rgb(232, 232, 108);
