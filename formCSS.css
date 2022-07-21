@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    
+}
+
+legend{
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+
+label a{
+    color: red;
+}
+
+.SignUp{
+    background-color: rgb(207, 118, 118);
+    height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Lab</title>
+    <link rel="stylesheet" href="./formCSS.css">
+</head>
+<body>
+    <form action="http://mumstudents.org/params.php">
+        <!-- <h1>Retrive your grade</h1>
+        <p>Full Name: <input type="text" name="Name" value=""/></p><br>
+        <p>Student Id: <input type="text" name="Id" value=""/></p><br><br>
+        <p>Get Grade!</p> -->
+
+        <!-- <select name="Assignment" id="1">
+            <option value="WAP">WAP</option>
+            <option value="SE">SE</option>
+            <option value="MWA">MWA</option>
+            <option value="SA">SA</option>
+            <option value="WAA" selected>WAA</option>
+            <option value="Algorithm">Algorithm</option>
+        </select> <br><br><br> -->
+
+        <fieldset>
+            <legend>New User SignUp: </legend>
+            <label>Name: <input type="text" name="Name" pattern="[A-Za-z0-9À-ž\s]{2, }" placeholder="Type your name" style="width: 200px;"><br></label>
+            Gender: <input type="radio" name= "Gender" value= "Man"checked /> Man
+            <input type="radio" name= "Gender" value= "Woman"  /> Woman<br>
+
+            Age: <input type="text" name="Age" pattern="[0-9]{1,2}" style="width: 30px;"><br>
+
+            Personality type: <input type="text" name= "Personality" pattern="ISTJ|ENFP" style="width: 50px;">
+            <label><a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp" target=" ">(Don't know your type?)</a></label><br>
+            
+            <label>Favorite OS: </label>
+            <select name="Operating system" id="1">
+                <option value="Mac OS X" >Mac OS X</option>
+                <option value="Windows" selected>Windows</option>
+                <option value="Linux">Linux</option>
+            </select><br>
+
+            <label>Seeking age: </label>
+            <input type="number" id="quantity1" name="quantity1" min="1" placeholder="min" style="width: 50px;"> to
+            <input type="number" id="quantity2" name="quantity2" max="99" placeholder="max" style="width: 50px;">
+
+            <br><br>
+            <input type="submit" value="SignUp" class= "SignUp">
+        </fieldset>
+    </form><br><br>
+
+
+    <footer>
+        <div>
+            <span>
+ 			  <a href="http://validator.w3.org/check?uri=https://kolloln.github.io">
+              <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" />
+              </a>
+              <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://kolloln.github.io">
+              <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator" />
+              </a>
+        </span>
+        </div>
+        
+    </footer>
+</body>
+</html>
