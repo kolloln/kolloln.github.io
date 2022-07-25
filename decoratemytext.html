@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Text Decorator</title>
-		<link href="decoratemytext.css" type="text/css" rel="stylesheet" />
-		<script src="decoratemytext.js"></script>
-		
-		<!-- link to your script file here -->
-		
-	</head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Decorator</title>
+    <link rel="stylesheet" href="./textDecoratorCSS.css">
+</head>
+<body>
+    <h1 class="textDec">Text Decorator</h1>
+    <img src="./textDecorator.jpg" alt="textDecorator">
+    <div class="dollar" id="image_input">
+    </div>
 
-	<body>
-		<h1>Text Decorator</h1>
-		
-		<div>
-			<img src="decorated.gif" alt="very decorated!" />
-		</div>
+    <fieldset>
+        <legend class= "text">Text</legend>
+        <input type="text" name="" id="writeText" value="">
+        
+    </fieldset>
 
-		<!-- Your UI controls go here -->
-		<div class="ui_control">
-			<fieldset>
-				<legend>Text</legend>
-				<textarea rows="4" cols="30" id="textarea"></textarea>
-			</fieldset>
-			<br>
-			<fieldset>
-				<legend>Decoration</legend>
-				<br>
-				
-				<button type="button" onclick="callIntervalFunction1();" id="button">Bigger Decorations!</button>
-				<br>
-				<br>
-				<button type="button" onclick="replaceWithMalkovitch();" id="malkovitch">Malkovitch</button>
-				<br>
-				<br>
-				<label>Bling</label><input type="checkbox" onchange="changeTextStyle();" id="bling" value="checkbox"/>
-				<br>
-				
+    
+    <fieldset>
+        <legend class= "text">Decoration</legend>
+        <input type="button" value="Bigger Decoration!" onclick="changeWidth()"><br><br>
+        <input type="button" value="Bling" onclick="displayImg('dollarImg.jpg', 500, 200, 'Dollar Photo')">
+        <input type="button" value="Cling" onclick="delImg()">
+    </fieldset>
 
-			</fieldset>
 
-		</div>
-		
-	</body>
+    <ul>
+        <li id= "ccc">Shitrt <button  onclick="mid()">Delete</button></li>
+        <li id= "ccc">Shitrt <button  onclick="mid()">Delete</button></li>
+        <li id= "ccc">Shitrt <button  onclick="mid()">Delete</button></li>
+    </ul>
+
+   
+
+
+   
+
+    <script src="./textDecoratorJS.js"></script>
+
+</body>
 </html>
