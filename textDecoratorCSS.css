@@ -1,0 +1,11 @@
+.textDec{
+    font-style: italic;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.dollar{
+    float: right;
+}
