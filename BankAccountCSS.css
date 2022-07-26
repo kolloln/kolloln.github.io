@@ -1,0 +1,17 @@
+.div1{
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.first, .second{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.first{
+    background-color: #6c92ab5c;
+}
+
+.second{
+    background-color:rgb(133 158 186 / 26%);
+}
