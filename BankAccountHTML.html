@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Application</title>
+    <link rel="stylesheet" href="./BankAccountCSS.css">
+</head>
+<body>
+
+    <form class= "first">
+        <label for="name">Account Name</label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="deposit">Deposit</label>
+        <input type="number" name="deposit" id="deposits" required> <br> <br>
+        <button type="submit" id="submit">Create Acount</button> <br> <br>
+        <textarea name="textArea" id="textArea" cols="50" rows="10"></textarea>
+   
+    </form><br><br>
+   <form class= "second">
+        
+
+       <label>Account Name: </label>
+       <input type="text" name="" id= "accName" value="" ><br><br>
+       <label>Deposit: </label>
+       <input type="text" name="" id= "deposit" value="" ><br><br>
+       <input type="button" value="Create New Account" onclick="create()"><br><br>
+       
+       <div class= "div1">
+        <p id="demo"></p>
+       </div><br><br>
+
+       <label>Add Deposit: </label>
+       <input type="text" name="" id= "newDeposit" value="" ><br><br>
+       <input type="button" value="New Deposit" onclick="create()"><br><br>
+       <div class= "div1">
+        <p id="demo2"></p>
+       </div><br><br>
+
+       <label>Add Debit: </label>
+       <input type="text" name="" id= "debit" value="" ><br><br>
+       <input type="button" value="New Deposit" onclick="create()"><br><br>
+       <div class= "div1">
+        <p id="demo3"></p>
+       </div>      
+   </form>
+   <script src="./BankAccountJS.js"></script>
+    <script src="./BankAccountJS1.js"></script>
+
+    <footer>
+        <div>
+            <span>
+			  <a href="http://validator.w3.org/check?uri=https://kolloln.github.io">
+              <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" />
+              </a>
+              <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://kolloln.github.io">
+              <img src="http://mumstudents.org/cs472/2014-09/images/w3c-css.png" alt="css validator" />
+              </a>
+
+
+        </span>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
