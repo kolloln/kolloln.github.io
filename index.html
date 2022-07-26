@@ -4,49 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank Account Application</title>
-    <link rel="stylesheet" href="./BankAccountCSS.css">
+    <title>WAP Course</title>
+    <style>
+        body{
+            height: 100%;
+        }
+        nav{
+            background-color: aquamarine; height: 60px; width: 100%;
+        }
+
+        #homepage{
+            background-color: antiquewhite;
+            height: 80%;
+        }
+
+        footer{
+            
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <a href="https://www.w3schools.com/html/default.asp" target=" ">HTML</a> |
+        <a href="https://www.w3schools.com/css/default.asp" target=" ">CSS</a> |
+        <a href="https://www.w3schools.com/js/default.asp" target=" ">JavaScript</a> |
+        <a href="https://www.w3schools.com/python/default.asp" target=" ">Python</a>
+    </nav>
 
-    <form class= "first">
-        <label for="name">Account Name</label>
-        <input type="text" name="name" id="name" required><br><br>
-        <label for="deposit">Deposit</label>
-        <input type="number" name="deposit" id="deposits" required> <br> <br>
-        <button type="submit" id="submit">Create Acount</button> <br> <br>
-        <textarea name="textArea" id="textArea" cols="50" rows="10"></textarea>
-   
-    </form><br><br>
-   <form class= "second">
-        
+    <div id= "homepage">
+        <img src="./myPhoto.jpeg" alt="" style="width: 400px; height: 400px;">
+        <h2>Kallol Chakraborty Shekhor</h2>
+        <hr>
 
-       <label>Account Name: </label>
-       <input type="text" name="" id= "accName" value="" ><br><br>
-       <label>Deposit: </label>
-       <input type="text" name="" id= "deposit" value="" ><br><br>
-       <input type="button" value="Create New Account" onclick="create()"><br><br>
-       
-       <div class= "div1">
-        <p id="demo"></p>
-       </div><br><br>
+        <ul>
+            <li><a href="#">W1D1- Homepage</a></li>
+            <li><a href="./about.html" target=" ">W1D2- About Me</a></li>
+            <li><a href="./pie.html" target=" ">W1D3- Recipe</a></li>
+            <li><a href="./tmnt.html" target=" ">W1D4- Movie review</a></li>
+            <li><a href="" target=" ">W1D5- MP3 Library</a></li>
+            <li><a href="" target=" ">W1D6- Movie review PHP</a></li>
+        </ul>
+        <hr>
+    </div>
 
-       <label>Add Deposit: </label>
-       <input type="text" name="" id= "newDeposit" value="" ><br><br>
-       <input type="button" value="New Deposit" onclick="create()"><br><br>
-       <div class= "div1">
-        <p id="demo2"></p>
-       </div><br><br>
-
-       <label>Add Debit: </label>
-       <input type="text" name="" id= "debit" value="" ><br><br>
-       <input type="button" value="New Deposit" onclick="create()"><br><br>
-       <div class= "div1">
-        <p id="demo3"></p>
-       </div>      
-   </form>
-   <script src="./BankAccountJS.js"></script>
-    <script src="./BankAccountJS1.js"></script>
 
     <footer>
         <div>
@@ -63,6 +64,5 @@
         </div>
         
     </footer>
-    
 </body>
 </html>
