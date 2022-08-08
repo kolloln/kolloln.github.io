@@ -1,0 +1,46 @@
+* {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #009B77;
+  }
+  
+  .container {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .img-ex {
+    display: flex;
+  }
+  
+  .picture {
+    width: 50%;
+    margin-right: 1em;
+  }
+  
+  .explanation {
+    line-height: 20px;
+    color: Black;
+  }
+  
+  img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 20px;
+  }
+  
+  .projectname {
+    color: white;
+  }
+  
+  .title {
+    color: whitesmoke;
+  }
+  
